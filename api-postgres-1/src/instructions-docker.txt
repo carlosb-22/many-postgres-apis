@@ -1,0 +1,11 @@
+/* #1 Download docker */
+https://www.docker.com/products/docker-desktop/
+
+/* #2 Get postgres image on container */
+docker pull postgres 
+
+/* #3 Run your Docker container*/
+docker run --name postgres-db -e POSTGRES_PASSWORD=peterpan -p 5432:5432 -d postgres
+
+/* #4 Help*/
+Just write to me, if help is needed
